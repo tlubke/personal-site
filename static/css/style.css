@@ -33,6 +33,10 @@ a:hover, a:active {
   text-align: center;
 }
 
+.invisible-ink {
+    color: rgba(255,255,255,0) !important;
+}
+
 hr {
   border-width: 1px 0 0 0 ;
   border-style: solid;
@@ -106,4 +110,20 @@ th, td {
 
 thead, tfoot, tr:nth-child(even) {
   background: #eee;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+}
+
+.cursor {
+  animation-name: blink;
+  animation-duration: 1200ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
 }
