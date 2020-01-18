@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title | lower }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    {{ partial "head_custom.html" . }}
+  </head>
+
+  <body>
+
+    {{if not .IsHome}}
+    <div class="split">
+      <a href="/">
+        <h1>tyler lubke</h1>
+      </a>
+      <h2>programmer / performer</h2>
+    </div>
+    {{ else }}
+    <div class="split">
+      <a href="/">
+        <h1 class="invisible-ink">tyler lubke</h1>
+      </a>
+      <h2 class="invisible-ink">programmer / performer</h2>
+    </div>
+    {{ end }}
+
+    <nav>
+    <ul class="menu">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    <hr/>
+    </nav>
