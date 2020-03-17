@@ -1,0 +1,22 @@
+<span>{{ .Title }} {{ .Subtitle }} ({{.Year}})</span>
+<div style="padding: 0 1em;">
+    <p>
+        {{ range .Instrumentation }}
+        {{.}},
+        {{end}}
+    </p>
+    <p><em>
+        {{ .Description }}
+    </em></p>
+    <div style="display: flex">
+        <a href={{.Score}}>
+            <i class="fa fa-file-pdf-o" style="font-size:3em; color:red; padding-right: 10px"></i>
+        </a>
+        <audio controls>
+            <source src={{.Recording}} type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</div>
+
+

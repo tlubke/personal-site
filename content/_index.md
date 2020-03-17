@@ -11,17 +11,6 @@ The music page will be a little empty until I translate my composition portfolio
 
 Please let me know if anything looks funny on whatever device you are using.
 
-## Upcoming Performances
-
-### UI Symphony Orchestra
-- 2/26
-- 3/25
-- 4/29
-- 5/4 + 5/6
-
-### Chamber
-- TBD [Beethoven Piano Trio Op. 1 No. 1 in Eb]
-
 Look, I can post equations!
 
 `$${

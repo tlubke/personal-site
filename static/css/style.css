@@ -59,6 +59,10 @@ div.split > *:nth-child(2) {
   text-align: right;
 }
 
+ul {
+  padding: 0 40px;
+}
+
 li a {
   text-decoration: underline;
 }
@@ -126,4 +130,8 @@ thead, tfoot, tr:nth-child(even) {
   animation-duration: 1200ms;
   animation-iteration-count: infinite;
   animation-timing-function: steps(1);
+}
+
+.indent {
+  padding: 0 10px;
 }
