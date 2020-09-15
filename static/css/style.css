@@ -7,7 +7,7 @@ body {
 
 a, a:visited, footer a {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover, a:active {
@@ -31,6 +31,10 @@ a:hover, a:active {
 
 .menu, .article-meta, footer {
   text-align: center;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 .invisible-ink {
@@ -86,6 +90,7 @@ pre code {
 /* misc elements */
 img, iframe, video {
   max-width: 100%;
+  background-color: black;
 }
 
 main {

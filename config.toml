@@ -5,6 +5,7 @@ googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
+enableInlineShortcodes = true
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

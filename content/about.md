@@ -7,6 +7,6 @@ author: Tyler Lubke
 
 Tyler Lubke was born, raised, and currently resides in Iowa.
 
-Hailing from the driftless region, he now makes his home in Iowa City as an instrumentalist, composer, programmer, and a hobbyist of too many things for his own good.
+Originally from the driftless region (Ope! That's way up there by Minnesota if ya didn't know), he now makes his home in Iowa City as a programmer, musician, and hobbyist of too many things.
 
-At the moment, Tyler studies Double Bass and Computer Science at the University of Iowa, and particularly enjoys finding ways to combine his interests in music, visual arts, and programming.
+At the moment, Tyler studies Double Bass and Computer Science at the University of Iowa. He plays and writes folk, contemporary-classical, and experimental-electronic music, and in addition, programs unique instruments to help perform and write in that last category. 
