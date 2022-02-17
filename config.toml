@@ -20,8 +20,8 @@ enableInlineShortcodes = true
     url = "/music"
     weight = 2
 [[menu.main]]
-    name = "projects"
-    url = "/projects"
+    name = "posts"
+    url = "/posts"
     weight = 3
 
 [params]

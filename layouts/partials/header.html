@@ -22,7 +22,7 @@
     </div>
     {{ else }}
     <div class="split">
-      <h1>{{ now.Format "January 01, 2006" }}</h1>
+      <h1><script>document.write(new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' }))</script></h1>
       <h2 class="invisible-ink">programmer / performer</h2>
     </div>
     {{ end }}
